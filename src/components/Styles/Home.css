@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1206px) and (min-width:903px) {
+    
+    .tempInsideBig{
+        font-size: 3em !important;
+    }
+    .tempInsideSmall{
+        font-size: 1em !important;
+    }
+    .otherData{
+        font-size: 0.8em;
+    }
+    .temp{
+        text-align: center;
+        width:524px;
+    }
+    .rawData{
+        justify-content: center;
+    }
+  }
+
+
+  @media only screen and (max-width: 903px){
+    
+    .tempInsideBig{
+        font-size: 2.4em !important;
+    }
+    .tempInsideSmall{
+        font-size: 1em !important;
+    }
+    .otherData{
+        font-size: 0.8em !important;
+    }
+    .temp{
+        text-align: center;
+        width:785px;
+    }
+    .rawData{
+        justify-content: center;
+    }
+  }
+
+
+  /* @media only screen and (max-width: 600px) and (min-width:450px) {
+    .tempInsideBig{
+        font-size: 2.4em !important;
+    }
+    .tempInsideSmall{
+        font-size: 1em !important;
+    }
+    .otherData{
+        font-size: 0.8em;
+    }
+  } */

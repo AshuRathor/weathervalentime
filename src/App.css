@@ -1,0 +1,22 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #BDCDD6;
+  color: #475d66;
+}
+
+/* @media only screen and (max-width: 903px){
+  .afterleft{
+    width:167vw !important;
+  }
+  
+}
+@media only screen and (max-width: 400px){
+  .afterleft{
+    width:196vw !important;
+  }
+  
+} */
+
+.afterleft{
+  width:100vw;
+}

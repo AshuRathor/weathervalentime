@@ -1,0 +1,203 @@
+.navbar {
+  display: flex;
+  margin: auto;
+  width: 72%;
+}
+.time{
+  font-weight: 900;
+}
+
+.navbar div {
+  padding: 3% 6%;
+  text-align: center;
+}
+.input{
+  padding:"2% 15%"
+}
+
+@media only screen and (max-width: 1297px) and (min-width:1000px) {
+  .navbar div {
+    padding: 3% 2%;
+  }
+  form{
+    width: 677px;
+  }
+  h1{
+    text-align: center;
+    font-size: 1.8em !important;
+  }
+  .desc{
+    font-size: 0.8em !important;
+  }
+  .card{
+    width: 15% !important;
+  }
+  .otherData{
+    width: 100% !important;
+    text-align: center;
+  }
+
+  /* .lang{
+      width:"100%";
+    } */
+}
+
+@media only screen and (max-width: 1000px) and (min-width:938px) {
+  .navbar div {
+    padding: 3% 2%;
+    width: 100%;
+  }
+  .form{
+    width: 600px !important;
+    margin: auto;
+  } 
+
+  .lang {
+    width: "100%";
+  }
+  h1{
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    font-size: 1.8em !important;
+  }
+  .desc{
+    font-size: 0.8em !important;
+  }
+  .card{
+    width: 30% !important;
+  }
+  .otherData{
+    width: 100% !important;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 938px) and (min-width:650px) {
+  .navbar div {
+    padding: 3% 2%;
+    width: 100%;
+  }
+
+  .time {
+    padding: 31px 40%;
+    width: 100%;
+  }
+  .form{
+    width: 452px !important;
+    margin: auto;
+  } 
+
+  .lang {
+    width: "100%";
+  }
+  h1{
+    text-align: center;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 1.8em !important;
+  }
+  .desc{
+    font-size: 0.8em !important;
+  }
+  .card{
+    width: 30% !important;
+  }
+  .otherData{
+    width: 100% !important;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+  .navbar div {
+    padding: 3% 2%;
+    width: 100%;
+  }
+  .input{
+    padding:"2% 1%" !important;
+  }
+
+  .searchBar {
+    padding: 31px 17% !important;
+  }
+  .form{
+    width: 241px !important;
+    margin: auto;
+  } 
+
+  .time {
+    width: 100%;
+  }
+
+  .lang {
+    width: "100%";
+  }
+  h1{
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    font-size: 1.8em !important;
+  }
+  .desc{
+    font-size: 0.8em !important;
+  }
+  .card{
+    width: 30% !important;
+  }
+  .otherData{
+    width: 100% !important;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 504px) {
+  .navbar div {
+    padding: 3% 2%;
+    width: 100%;
+  }
+
+  .searchBar {
+    padding: 31px 7% !important;
+  }
+  
+  .input{
+    padding:"2% 1%";
+  }
+
+  
+  .form{
+    width: 241px !important;
+    margin: auto;
+  } 
+
+  .time {
+    width: 100%;
+  }
+
+  .lang {
+    width: "100%";
+  }
+  h1{
+    text-align: center;
+    font-size: 1.8em !important;
+  }
+  .desc{
+    font-size: 0.8em !important;
+  }
+  .card{
+    width: 55% !important;
+  }
+  .otherData{
+    width: 100% !important;
+    text-align: center;
+  }
+
+}

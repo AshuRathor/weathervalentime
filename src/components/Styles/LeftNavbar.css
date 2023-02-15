@@ -1,0 +1,41 @@
+.l_bar {
+    padding: 10% 8%;
+    margin: 15% 0%;
+    width: 82%;
+    list-style: none;
+    font-weight: 500;
+}
+ul{
+    padding: 0%;
+    position: fixed;
+    width: 15%;
+
+}
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 903px) and (min-width:600px) {
+    a{
+        font-size: 0.6em;
+    }
+    /* .leftNavbar{
+        z-index: 3;
+    } */
+  }
+
+  @media only screen and (max-width: 933px) and (min-width:320px) {
+    .leftNavbar{
+        width: 100% !important;
+    }
+
+  }
+  @media only screen and (min-width:933px) {
+    .leftNavbar{
+        width: 26% !important;
+    }
+
+  }
+  .leftNavbar{
+    transition: all ease-out 0.3s ;
+  }

@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1206px) and (min-width:903px) {
+    .card {
+        margin-left: 22%;
+        width: 19% !important;
+    }
+  }
+
+  @media only screen and (max-width: 903px){
+    .card {
+        margin-left: 22%;
+        width: 19% !important;
+        height: 0%;
+    }
+    .desc, .humidity, .day{
+        font-size: 1em;
+    }
+  }
+
+  /* @media only screen and (max-width: 400px){
+    .card {
+        margin-left: 22%;
+        width: 19% !important;
+        height: 0%;
+    }
+    .desc, .humidity, .day{
+        font-size: 1em;
+    }
+  }
+   */
+  /* @media only screen and (max-width: 600px) and (min-width:450px) {
+    .card {
+        margin-left: 22%;
+        width: 19% !important;
+        height: 0%;
+    }
+    .desc, .humidity, .day{
+        font-size: 1em;
+    }
+  } */

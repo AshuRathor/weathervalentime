@@ -84,7 +84,7 @@ const Navbar = (props) => {
         <input className='input' value={searchText} onChange={handleOnChangeSearch} placeholder='search...' style={{ backgroundColor: "#BDCDD6", border: "3px solid #475d66", borderRadius: "18px" }} type="text" />
         <button type='submit' onClick={handleOnClickSearch} style={{ cursor: "pointer", backgroundColor: "#93BFCF", border: "none", color: "#475d66", margin: "3%" }}><i class="fa-solid fa-location-dot"></i></button>
       </form></div>
-      <div onChange={langOnChange} className="lang">
+      <div className="lang">
         <label htmlFor="cars">Language: </label>
         <select name="cars" id="cars">
           <option value="en">English</option>

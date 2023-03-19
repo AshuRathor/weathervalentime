@@ -16,9 +16,9 @@ const Navbar = (props) => {
     console.log(searchText)
     setSearchText(e.target.value)
   }
-  const langOnChange=()=>{
-    setl
-  }
+//   const langOnChange=()=>{
+//     setl
+//   }
   const handleOnClickSearch = async (e) => {
     setCity(searchText)
     if (currentSite === 1) {
